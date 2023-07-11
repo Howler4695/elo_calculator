@@ -3,7 +3,7 @@ import { stdin as input, stdout as output } from "process";
 import { pow, round } from "mathjs";
 
 const WEIGHT = 40;
-const TEN_TIMES_DIFFERENCE = 200;
+const TEN_TIMES_DIFFERENCE = 400;
 
 const rl = readLine.createInterface({ input, output });
 
