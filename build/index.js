@@ -56,7 +56,6 @@ var findNewEloRating = function (oldRating1, oldRating2, K, player1Winner) {
         newPlayer2Rating = oldRating2 + K * (0 - player2WinProbability);
     }
     else {
-        136;
         newPlayer1Rating = oldRating1 + K * (0 - player1WinProbability);
         newPlayer2Rating = oldRating2 + K * (1 - player2WinProbability);
     }
